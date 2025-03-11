@@ -1,0 +1,180 @@
+/* ProfilePage.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f0f2f5;
+  
+  height: 1200px;
+  
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.profile-container {
+  display: flex;
+  height: 1000%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  
+  padding: 20px;
+}
+
+.profile-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.profile-header {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+.profile-image-container {
+  margin-right: 20px;
+}
+
+.profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-size: 26px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.profile-title {
+  color: #666;
+  font-size: 16px;
+}
+
+.profile-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.nav-item:hover {
+  background-color: #f9f9f9;
+}
+
+.nav-item.active {
+  border-left: 3px solid #3b82f6;
+}
+
+.nav-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  margin-right: 15px;
+  color: white;
+  font-size: 18px;
+}
+
+.person {
+  background-color: #3b82f6;
+}
+
+.document {
+  background-color: #10b981;
+}
+
+.briefcase {
+  background-color: #f59e0b;
+}
+
+.quote {
+  background-color: #f97316;
+}
+
+.envelope {
+  background-color: #ef4444;
+}
+
+.profile-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  border-top: 1px solid #eee;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icon {
+  color: #666;
+  margin-right: 15px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.social-icon:hover {
+  color: #3b82f6;
+}
+
+.settings-icon {
+  color: #666;
+  cursor: pointer;
+}
+
+.copyright {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.presale-chat-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #10b981;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(16, 185, 129, 0.2);
+}
+
+@media (max-width: 600px) {
+  .profile-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .profile-image-container {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}

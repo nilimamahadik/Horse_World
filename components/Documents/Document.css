@@ -1,0 +1,268 @@
+.resume-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    color: #444;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .resume-left {
+    flex: 1;
+    padding-right: 30px;
+  }
+  
+  .resume-right {
+    flex: 1;
+    padding-left: 30px;
+  }
+  
+  .resume-section {
+    margin-bottom: 30px;
+  }
+  
+  .section-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #666;
+    padding: 10px 15px;
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+    border-left: 4px solid #3498db;
+    position: relative;
+  }
+  
+  .section-title::before {
+    content: "–";
+    position: absolute;
+    left: 0;
+    transform: translateX(-50%);
+    color: #999;
+  }
+  
+  .section-title-right {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .header-with-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .item-title h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+  }
+  
+  .subtitle {
+    color: #3498db;
+    font-size: 14px;
+    margin: 2px 0 0 0;
+  }
+  
+  .date {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .description {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  .divider {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+  }
+  
+  /* Programming Skills */
+  .skill-item {
+    margin-bottom: 15px;
+  }
+  
+  .skill-label {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .skill-bar-container {
+    height: 25px;
+    background-color: #f0f0f0;
+    border-radius: 3px;
+  }
+  
+  .skill-bar {
+    height: 100%;
+    border-radius: 3px;
+    position: relative;
+  }
+  
+  .skill-percentage {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .wordpress {
+    background-color: #4a89dc;
+  }
+  
+  .php {
+    background-color: #3fc1c9;
+  }
+  
+  .html {
+    background-color: #ffb74d;
+  }
+  
+  .css {
+    background-color: #fc6e51;
+  }
+  
+  .mysql {
+    background-color: #fc5c65;
+  }
+  
+  /* Designer Skills */
+  .designer-skills-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .designer-skills-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  
+  .skill-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .adobe-illustrator {
+    background-color: #ff9f43;
+  }
+  
+  .adobe-indesign {
+    background-color: #feca57;
+  }
+  
+  .corel-draw {
+    background-color: #ff6b6b;
+  }
+  
+  .three-d-max {
+    background-color: #48dbfb;
+  }
+  
+  .adobe-photoshop {
+    background-color: #1e90ff;
+  }
+  
+  .skills-chart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .donut-chart {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: conic-gradient(
+      #ff9f43 0% 20%,
+      #feca57 20% 40%,
+      #ff6b6b 40% 60%,
+      #48dbfb 60% 80%,
+      #1e90ff 80% 100%
+    );
+    position: relative;
+  }
+  
+  .donut-chart::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  /* Language Skills */
+  .language-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .language-name {
+    font-size: 14px;
+  }
+  
+  .language-level {
+    display: flex;
+  }
+  
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0 2px;
+  }
+  
+  .filled {
+    background-color: #3498db;
+  }
+  
+  .half-filled {
+    background: linear-gradient(to right, #3498db 50%, #e0e0e0 50%);
+  }
+  
+  .empty {
+    background-color: #e0e0e0;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .resume-container {
+      flex-direction: column;
+    }
+    
+    .resume-left, .resume-right {
+      width: 100%;
+      padding: 0;
+    }
+    
+    .header-with-date {
+      flex-direction: column;
+    }
+    
+    .date {
+      margin-top: 5px;
+    }
+  }

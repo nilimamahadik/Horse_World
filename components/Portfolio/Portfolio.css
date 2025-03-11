@@ -1,0 +1,106 @@
+/* Portfolio.css */
+.portfolio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .portfolio-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFC857;
+    padding: 15px 20px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-header h2 {
+    color: white;
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .header-arrow {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .portfolio-nav {
+    display: flex;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  
+  .portfolio-nav button {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    color: #333;
+  }
+  
+  .portfolio-nav button.active {
+    color: #FF6B35;
+    font-weight: bold;
+  }
+  
+  .portfolio-nav button.active::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 20px;
+    right: 20px;
+    height: 2px;
+    background-color: #FF6B35;
+  }
+  
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .portfolio-item {
+    overflow: hidden;
+    height: 0;
+    padding-top: 75%; /* 4:3 aspect ratio */
+    position: relative;
+  }
+  
+  .portfolio-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .portfolio-item:hover img {
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 768px) {
+    .portfolio-nav {
+      overflow-x: auto;
+      white-space: nowrap;
+      padding-bottom: 10px;
+    }
+    
+    .portfolio-grid {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .portfolio-grid {
+      grid-template-columns: 1fr;
+    }
+  }

@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-horseworld-dev-d5bdd-authRole",
+      "UnauthRoleArn": "arn:aws:iam::583657565141:role/amplify-horseworld-dev-d5bdd-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::583657565141:role/amplify-horseworld-dev-d5bdd-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-horseworld-dev-d5bdd-deployment",
+      "UnauthRoleName": "amplify-horseworld-dev-d5bdd-unauthRole",
+      "StackName": "amplify-horseworld-dev-d5bdd",
+      "StackId": "arn:aws:cloudformation:ap-south-1:583657565141:stack/amplify-horseworld-dev-d5bdd/192c9150-f9b6-11ef-8a29-02cfcfd00651",
+      "AmplifyAppId": "d1ldprvt5mm217"
+    },
+    "categories": {
+      "auth": {
+        "horseworldc0c6aa00": {}
+      },
+      "storage": {
+        "s33fb173d4": {}
+      }
+    }
+  }
+}
