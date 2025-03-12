@@ -6,8 +6,8 @@ const Banner = ({ pageTitle, pageName, search }) => {
   return (
     <Fragment>
       <section
-        className="page-banner-area pt-50 pb-35 rel z-1 bgs-cover"
-        style={{ backgroundImage: "url(assets/images/banner/banner.jpg)" }}
+        className="page-banner-area pt-40 pb-15 bgs-cover" 
+        style={{ backgroundImage: "url(assets/images/banner/banner.jpg)", width:"100%",height:"50%" }}
       >
         <div className="container">
           <div className={`banner-inner text-white ${search ? "mb-50" : ""}`}>

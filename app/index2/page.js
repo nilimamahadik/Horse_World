@@ -114,13 +114,9 @@ const page = () => {
               data-aos-offset={50}
             >
               <div className="section-title counter-text-wrap mb-10">
-                <h4>Looking for Tours Or Destination</h4>
-                <p>
-                  One site{" "}
-                  <span className="count-text plus">
-                    <Counter end={34500} />
-                  </span>{" "}
-                  most popular experience
+                <h4>Featured Horse</h4>
+                <p> Horses From Trusted and Reputable Breeders. Find Your Perfect Horse Today.
+                 
                 </p>
               </div>
               <div className="filter-item clearfix">
@@ -352,16 +348,8 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <h2>Explore Our Popular Activity</h2>
-                <p>
-                  One site{" "}
-                  <span
-                    className="count-text plus"
-                    data-speed={3000}
-                    data-stop={34500}
-                  >
-                    0
-                  </span>{" "}
-                  most popular experience
+                <p> Horses From Trusted and Reputable Breeders. Find Your Perfect Horse Today.
+                
                 </p>
               </div>
             </div>

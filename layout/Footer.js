@@ -142,9 +142,9 @@ const Footer1 = () => {
                     <img src="assets/images/logos/logo.png" alt="Logo" />
                   </Link>
                 </div>
-                <p>
+                {/* <p>
                  We have best website for horse selling and buying. We have a large collection of horses. You can buy and sell your horse here.
-                </p>
+                </p> */}
                 <div className="social-style-one mt-15">
                   <Link href="contact">
                     <i className="fab fa-facebook-f" />
@@ -170,13 +170,8 @@ const Footer1 = () => {
             >
               <div className="section-title counter-text-wrap mb-35">
                 <h2>Subscribe Newsletter</h2>
-                <p>
-                  One site{" "}
-                  <span className="count-text plus">
-                    <Counter end={34500} />
-                  </span>{" "}
-                  most popular experience you’ll remember
-                </p>
+                <p> Horses From Trusted and Reputable Breeders. Find Your Perfect Horse Today.
+                  </p>
               </div>
               <form className="newsletter-forms mb-50" action="#">
                 <input

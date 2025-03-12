@@ -28,13 +28,9 @@ const page = () => {
                   Horse World
                 </span>
                 <h1>Explore the World of Horse</h1>
-                {/* <p>
-                  One site{" "}
-                  <span className="count-text plus">
-                    <Counter end={34500} />
-                  </span>{" "}
-                  most popular experience you’ll remember
-                </p> */}
+                 <p>Horses From Trusted and Reputable Breeders. Find Your Perfect Horse Today.
+                 
+                </p> 
               </div>
             </div>
           </div>
@@ -199,7 +195,7 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <SectionTitle title={"Explore Horse Breeds"} />
+                <h2>Explore Horse Breeds</h2>
               </div>
             </div>
           </div>
@@ -767,7 +763,7 @@ const page = () => {
                 className="cta-item"
                 style={{ backgroundImage: "url(assets/images/cta/cta1.jpg)" }}
               >
-                {/* <span className="category">Tent Camping</span> */}
+                
                 <span className="category">Foal</span>
                 {/* <h2>Explore the world best tourism</h2> */}
                 <h2>Planned Foal</h2>

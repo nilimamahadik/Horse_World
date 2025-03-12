@@ -20,12 +20,8 @@ const Subscribe = () => {
             >
               <div className="section-title counter-text-wrap mb-45">
                 <h2>Subscribe Our Newsletter to Get more Info</h2>
-                <p>
-                  One site{" "}
-                  <span className="count-text plus">
-                    <Counter end={34500} />
-                  </span>{" "}
-                  most popular experience you’ll remember
+                <p>  Horses From Trusted and Reputable Breeders. Find Your Perfect Horse Today.
+          
                 </p>
               </div>
               <form className="newsletter-forms mb-15" action="#">

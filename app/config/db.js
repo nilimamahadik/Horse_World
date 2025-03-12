@@ -13,7 +13,7 @@ const pool = mysql.createPool({
 
   
 });
- //console.log("env",process.env.DB_USER, process.env.DB_PASSWORD);
+//  console.log("env",process.env.DB_USER, process.env.DB_PASSWORD);
 
 const connectToDatabase = async () => {
   let connection;

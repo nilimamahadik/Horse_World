@@ -126,8 +126,8 @@ While the Marwari was essential to this battle lifestyle, the 20th century broug
                   className="theme-btn mt-25 style-two"
                 >
                   {/* <span data-hover="Explore Destinations"> */}
-                  <span data-hover="Explore Destinations">
-                    Explore Horse Breeds
+                  <span data-hover="Explore Breeds">
+                    Explore Indian Horse Breeds
                   </span>
                   <i className="fal fa-arrow-right" />
                 </Link>
@@ -164,7 +164,7 @@ While the Marwari was essential to this battle lifestyle, the 20th century broug
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <SectionTitle title={"Explore Horse Breeds"} />
+                <h2>Explore Indian Horse Breeds </h2>
               </div>
             </div>
           </div>
@@ -391,15 +391,7 @@ While the Marwari was essential to this battle lifestyle, the 20th century broug
               >
                 <h2>Explore Our Popular Category</h2>
                 <p>
-                  One site{" "}
-                  <span
-                    className="count-text plus"
-                    data-speed={3000}
-                    data-stop={34500}
-                  >
-                    0
-                  </span>{" "}
-                  most popular experience
+                 
                 </p>
               </div>
             </div>
@@ -894,7 +886,7 @@ While the Marwari was essential to this battle lifestyle, the 20th century broug
                   </span>
                   <h5>
                     <Link href="tour-details">
-                      The White Marwari Horse "Shakti"
+                      The Dark Brown Marwari Horse "Shakti"
                     </Link>
                   </h5>
                   <ul className="list-style-one">
@@ -956,7 +948,7 @@ While the Marwari was essential to this battle lifestyle, the 20th century broug
                   </span>
                   <h5>
                     <Link href="tour-details">
-                      The Brown Marwari Horse "Kali"
+                      The Marwari Horse "Kali"
                     </Link>
                   </h5>
                   <ul className="list-style-one">
@@ -968,7 +960,7 @@ While the Marwari was essential to this battle lifestyle, the 20th century broug
                     <li>
                       {/* <i className="fal fa-hat-chef" /> */}
                       <i>Mother Side</i>
-                       Janvi
+                      Janvi
                     </li>
                     <li>
                       {/* <i className="fal fa-bath" />  */}

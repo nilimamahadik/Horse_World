@@ -234,15 +234,12 @@ const page = () => {
               >
                 <div className="section-title mb-25">
                   <h2>
-                  How Horse World Works
+                  How Horse World Works?
                   </h2>
                 </div>
-                {/* <p>
-                  We go above and beyond to make your dreams reality
-                  hidden gems and must-see attractions
-                </p> */}
-                <div className="divider counter-text-wrap mt-45 mb-55">
-                </div>
+                
+                {/* <div className="divider counter-text-wrap mt-45 mb-55">
+                </div> */}
                   {/* <span>
                     We have{" "}
                     <span>
@@ -263,21 +260,21 @@ const page = () => {
      
 
 <div class="process-container">
-  <h4 style={{textAlign:"center"}}>Three-Step Process</h4>
+  <p style={{textAlign:"left"}}>Our platform helps you trace the lineage of horses, allowing breeders, owners, enthusiasts, and historians to track horse pedigrees easily and comprehensively. Whether you're interested in understanding a horse’s ancestry, discovering genetic traits, or simply exploring the fascinating world of horse bloodlines, you can find it all here.</p>
   
   <div class="step">
-    <strong class="step-title">Step 1: Browse Horses:</strong>
-    <p class="step-description">Explore detailed listings from top breeders.</p>
+    <strong class="step-title">Pedigree Visualization:</strong>
+    <p class="step-description">Interactive charts that show a horse’s ancestors.</p>
   </div>
 
   <div class="step">
-    <strong class="step-title">Step 2: Get in Touch :</strong>
-    <p class="step-description">Contact breeders directly for more info or to schedule a visit.</p>
+    <strong class="step-title">Horse Profile Pages:</strong>
+    <p class="step-description">Detailed profiles with information on breed, age, color, and achievements.</p>
   </div>
 
   <div class="step">
-    <strong class="step-title">Step 3: Buy or Sell with Confidence :</strong>
-    <p class="step-description">Complete your transaction safely with our trusted platform.</p>
+    <strong class="step-title">Search and Filter Options:</strong>
+    <p class="step-description">Easily search for horses based on breed, name, or lineage.</p>
   </div>
 </div>
 
@@ -308,7 +305,7 @@ const page = () => {
                   </div> */}
                 </div>
                 <Link href="destination1" className="theme-btn mt-10 style-two">
-                  <span data-hover="Explore Destinations">
+                  <span data-hover="Explore Breeds">
                     Explore Breeds
                   </span>
                   <i className="fal fa-arrow-right" />
@@ -362,10 +359,11 @@ const page = () => {
                   data-aos-duration={1500}
                   data-aos-offset={50}
                 >
-                  <SectionTitle
+                  <h2>Explore Popular Indian Horse Breeds</h2>
+                  {/* <SectionTitle
                     title={"Explore Popular Indian Horse Breeds"}
-                  // subtitle2="most popular experience"
-                  />
+                  
+                  /> */}
                 </div>
               </div>
             </div>
@@ -1076,7 +1074,7 @@ const page = () => {
                 className="cta-item"
                 style={{ backgroundImage: "url(assets/images/cta/cta1.jpg)" }}
               >
-                <span className="category">Tent Camping</span>
+                <span className="category"></span>
                 <h2>Planned Foal</h2>
                 {/* <h2>Explore the world best tourism</h2> */}
                 <Link

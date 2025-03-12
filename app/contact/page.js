@@ -5,7 +5,7 @@ const page = () => {
     <ReveloLayout insta>
       <Banner pageTitle={"Contact Us"} />
       {/* Contact Info Area start */}
-      <section className="contact-info-area pt-100 rel z-1">
+      {/* <section className="contact-info-area pt-100 rel z-1">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-4">
@@ -26,7 +26,7 @@ const page = () => {
                 <div className="features-team-box mt-40">
                   <h6>85+ Expert Team member</h6>
                   <div className="feature-authors">
-                    {/* <img
+                    <img
                       src="assets/images/features/feature-author1.jpg"
                       alt="Author"
                     />
@@ -53,7 +53,7 @@ const page = () => {
                     <img
                       src="assets/images/features/feature-author7.jpg"
                       alt="Author"
-                    /> */}
+                    />
                     <span>+</span>
                   </div>
                 </div>
@@ -96,7 +96,7 @@ const page = () => {
                       <h5>Need Any Urgent</h5>
                       <div className="text">
                         <i className="far fa-phone" />{" "}
-                        {/* <a href="callto:+0001234588">+000 (123) 45 88</a> */}
+                        <a href="callto:+0001234588">+000 (123) 45 88</a>
                         <a href="">+919876543210</a>
                       </div>
                     </div>
@@ -144,7 +144,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Contact Info Area end */}
       {/* Contact Form Area start */}
       <section className="contact-form-area py-70 rel z-1">

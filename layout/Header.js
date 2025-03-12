@@ -89,9 +89,11 @@ const Menu = () => {
               <Link href="/breeder">Stud Farms</Link>
             </li>
 
-            <li>
+            <li className="dropdown current">
               <Link href="/stud">Browse Horses</Link>
-              <ul style={{ borderRadius: "10px" }}>
+              <ul 
+              style={{ borderRadius: "10px" }}
+              >
                 <li>
                   <Link href="destination1">Find a Horse</Link>
                 </li>
@@ -121,7 +123,7 @@ const Menu = () => {
             </li> */}
 
             <li className="dropdown">
-              <a href="contact">About Us</a>
+              <a href="contact">Contact Us</a>
               <ul>
 
                 {/* <li>

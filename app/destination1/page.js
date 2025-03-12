@@ -17,7 +17,7 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <SectionTitle title={"Explore Popular Horse Breeds"} />
+                <SectionTitle title={"Explore Popular Indian Horse Breeds"} />
               </div>
             </div>
           </div>
