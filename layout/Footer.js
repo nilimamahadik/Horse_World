@@ -221,7 +221,7 @@ const Footer1 = () => {
                     <Link href="destination-details">Wide Range</Link>
                   </li>
                   <li>
-                    <Link href="destination-details">Upcoming Fawn</Link>
+                    <Link href="destination-details">Upcoming Foal</Link>
                   </li>
                   <li>
                     <Link href="destination-details">Rental Services</Link>

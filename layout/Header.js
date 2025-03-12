@@ -50,8 +50,8 @@ const Menu = () => {
           eventKey="collapse"
           className="navbar-collapse  clearfix"
         >
-          <ul className="navigation clearfix" style={{ padding: "5px" }}>
-            <li className="dropdown current">
+          <ul className="navigation clearfix" >
+            <li className="dropdown current"style={{alignItems:"center"  }}>
               <Link href="/">Home</Link>
               {/* <Link href="index2">Home</Link> */}
               <ul>
@@ -65,17 +65,44 @@ const Menu = () => {
 
             </li> */}
               <li className="dropdown current">
+              <a href="#">Breeders</a>
+              <ul style={{ borderRadius: "10px" }}>
+              <li>
+                  <Link href="">Breeders Directory</Link>
+                </li>
+                <li>
                   <Link href="/addhorse" legacyBehavior>
-                    <a onClick={handleNavigation}>Add a Horse</a>
+                  <a onClick={handleNavigation}>List a Horse</a>
                   </Link>
+                </li>
+                <li>
+                  <Link href="">Add a Foal</Link>
+                </li>
+               
+              </ul>
+                  {/* <Link href="/addhorse" legacyBehavior>
+                    <a onClick={handleNavigation}>Add a Horse</a>
+                  </Link> */}
                 </li>
 
             <li>
-              <Link href="/breeder">Breeders</Link>
+              <Link href="/breeder">Stud Farms</Link>
             </li>
 
             <li>
-              <Link href="/stud">All Horses</Link>
+              <Link href="/stud">Browse Horses</Link>
+              <ul style={{ borderRadius: "10px" }}>
+                <li>
+                  <Link href="destination1">Find a Horse</Link>
+                </li>
+                <li>
+                  <Link href="destination1">Find a Breed</Link>
+                </li>
+                <li>
+                  <Link href="destination1">Compare</Link>
+                </li>
+                
+              </ul>
             </li>
             {/* <li className="dropdown">
               <a href="#">Horses for Sale</a>
@@ -94,7 +121,7 @@ const Menu = () => {
             </li> */}
 
             <li className="dropdown">
-              <a href="contact">Contact</a>
+              <a href="contact">About Us</a>
               <ul>
 
                 {/* <li>

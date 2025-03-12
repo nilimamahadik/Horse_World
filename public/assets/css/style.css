@@ -3506,7 +3506,8 @@ h6, .h6, blockquote {
 
 @media only screen and (min-width: 992px) {
       .main-header.header-one .main-menu .navbar-collapse .navigation > li.dropdown > a {
-        padding-right: 8px; }
+        /* padding-right: 8px;  */
+      }
       .main-header.header-one .main-menu .navbar-collapse .navigation > li.dropdown > .dropdown-btn {
         margin-left: 0;
         -webkit-transition: 0.5s;
@@ -4022,9 +4023,10 @@ h6, .h6, blockquote {
   z-index: 2;
   color: #8F4A00;
   font-weight: 700;
+  text-align: left;
   font-size: 130px;
   position: relative;
-  text-align: center;
+  /* text-align: center; */
   text-transform: uppercase; }
   @media only screen and (max-width: 1599px) {
     .hero-title {

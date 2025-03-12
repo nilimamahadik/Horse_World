@@ -82,7 +82,7 @@ const page = () => {
                   Horse World
                 </h1>
                 <p>
-                  In the recent past, it proved more and more important to make good decisions by matching the right parents of future litters to maintain or even improve the health of our beloved animals by limiting/preventing inbreeding and the passing on of hereditary diseases.
+                Welcome to Horse World, your premier destination for everything related to horses. Whether you're a seasoned equestrian or a beginner, we offer a wide range of resources to enhance your knowledge, skills, and passion for horses. Join our community and immerse yourself in the world of horses!
 
                 </p>
 
@@ -109,7 +109,9 @@ const page = () => {
       {/* Destinations Area start */}
       <br />
       <section className="destinations-area  pt-70 pb-70 rel z-1" style={{ backgroundColor: "#F9F9F7" }}>
-        <h1 style={{ color: "#8F4A00", textAlign: "center", fontSize: "60px" }}>All Horses</h1>
+        <h2 style={{ color: "#1c231f", textAlign: "center"  }}>Featured Horse</h2>
+        <p style={{textAlign:"center",fontSize:"18px"}}>Horses From Trusted and Reputable Breeders. Find Your Perfect Horse Today.</p>
+        
 
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
@@ -232,15 +234,16 @@ const page = () => {
               >
                 <div className="section-title mb-25">
                   <h2>
-                    Top Reasons to Choose Horse World
+                  How Horse World Works
                   </h2>
                 </div>
-                <p>
-                  We go above and beyond to make your travel dreams reality
+                {/* <p>
+                  We go above and beyond to make your dreams reality
                   hidden gems and must-see attractions
-                </p>
+                </p> */}
                 <div className="divider counter-text-wrap mt-45 mb-55">
-                  <span>
+                </div>
+                  {/* <span>
                     We have{" "}
                     <span>
                       <span
@@ -253,11 +256,33 @@ const page = () => {
                       Years
                     </span>{" "}
                     of experience
-                  </span>
-                </div>
+                  </span> */}
+              
                 <div className="row">
-                  <div className="col-6">
-                    <div className="counter-item counter-text-wrap">
+                  {/* <div className="col-6"> */}
+     
+
+<div class="process-container">
+  <h4 style={{textAlign:"center"}}>Three-Step Process</h4>
+  
+  <div class="step">
+    <strong class="step-title">Step 1: Browse Horses:</strong>
+    <p class="step-description">Explore detailed listings from top breeders.</p>
+  </div>
+
+  <div class="step">
+    <strong class="step-title">Step 2: Get in Touch :</strong>
+    <p class="step-description">Contact breeders directly for more info or to schedule a visit.</p>
+  </div>
+
+  <div class="step">
+    <strong class="step-title">Step 3: Buy or Sell with Confidence :</strong>
+    <p class="step-description">Complete your transaction safely with our trusted platform.</p>
+  </div>
+</div>
+
+                    
+                    {/* <div className="counter-item counter-text-wrap">
                       <span
                         className="count-text"
                         data-speed={3000}
@@ -267,9 +292,9 @@ const page = () => {
                       </span>
 
                       <span className="counter-title">Registered Breeds</span>
-                    </div>
-                  </div>
-                  <div className="col-6">
+                    </div> */}
+                  {/* </div> */}
+                  {/* <div className="col-6">
                     <div className="counter-item counter-text-wrap">
                       <span
                         className="count-text m-plus"
@@ -280,7 +305,7 @@ const page = () => {
                       </span>
                       <span className="counter-title">Satisfied Users</span>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
                 <Link href="destination1" className="theme-btn mt-10 style-two">
                   <span data-hover="Explore Destinations">
@@ -338,7 +363,7 @@ const page = () => {
                   data-aos-offset={50}
                 >
                   <SectionTitle
-                    title={"Explore Popular Horse Breeds"}
+                    title={"Explore Popular Indian Horse Breeds"}
                   // subtitle2="most popular experience"
                   />
                 </div>
@@ -1052,10 +1077,10 @@ const page = () => {
                 style={{ backgroundImage: "url(assets/images/cta/cta1.jpg)" }}
               >
                 <span className="category">Tent Camping</span>
-                <h2>Planned Fawn</h2>
+                <h2>Planned Foal</h2>
                 {/* <h2>Explore the world best tourism</h2> */}
                 <Link
-                  href=""
+                  href="/addhorse" 
                   className="theme-btn style-two bgc-secondary"
                 >
                   <span data-hover="">Explore</span>
@@ -1096,10 +1121,10 @@ const page = () => {
                 <span className="category"></span>
                 <h2>10 Best Horse Breeds for Beginners & First-Time Owners</h2>
                 <Link
-                  href=""
+                  href="/addhorse"
                   className="theme-btn style-two bgc-secondary"
                 >
-                  <span data-hover="Explore Tours">Explore Tours</span>
+                  <span data-hover="Explore Tours">Explore</span>
                   <i className="fal fa-arrow-right" />
                 </Link>
               </div>

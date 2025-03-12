@@ -28,13 +28,13 @@ const page = () => {
                   Horse World
                 </span>
                 <h1>Explore the World of Horse</h1>
-                <p>
+                {/* <p>
                   One site{" "}
                   <span className="count-text plus">
                     <Counter end={34500} />
                   </span>{" "}
                   most popular experience you’ll remember
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -768,9 +768,9 @@ const page = () => {
                 style={{ backgroundImage: "url(assets/images/cta/cta1.jpg)" }}
               >
                 {/* <span className="category">Tent Camping</span> */}
-                <span className="category">Fawns</span>
+                <span className="category">Foal</span>
                 {/* <h2>Explore the world best tourism</h2> */}
-                <h2>Planned Fawns</h2>
+                <h2>Planned Foal</h2>
                 <Link
                   href="tour-details"
                   className="theme-btn style-two bgc-secondary"
